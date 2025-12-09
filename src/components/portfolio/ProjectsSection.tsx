@@ -1,4 +1,4 @@
-import { ExternalLink, Github, BarChart, Brain, Heart, Cloud, Share2, PieChart } from "lucide-react";
+import { Github, BarChart, Brain, Heart, Cloud, Share2, PieChart, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -49,6 +49,14 @@ const projects = [
     icon: PieChart,
     category: "Visualization",
     github: "https://github.com/SionRani/Task-Dashboard-Design",
+  },
+  {
+    title: "HR Data Analytics",
+    description: "Comprehensive HR data analysis project exploring employee metrics, attrition patterns, and workforce insights.",
+    technologies: ["Python", "Data Analysis", "Visualization"],
+    icon: Users,
+    category: "Analytics",
+    github: "https://github.com/SionRani/HR-DATA-ANALYSIS",
   },
 ];
 
