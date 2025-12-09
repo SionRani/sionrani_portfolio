@@ -8,6 +8,7 @@ const projects = [
     technologies: ["Python", "Scikit-learn", "Pandas", "NumPy"],
     icon: BarChart,
     category: "Machine Learning",
+    github: "",
   },
   {
     title: "Email Spam Detection",
@@ -15,6 +16,7 @@ const projects = [
     technologies: ["Python", "NLP", "TensorFlow", "NLTK"],
     icon: Brain,
     category: "NLP",
+    github: "",
   },
   {
     title: "Heart Disease Prediction",
@@ -22,6 +24,7 @@ const projects = [
     technologies: ["Python", "ML", "Healthcare Analytics"],
     icon: Heart,
     category: "Healthcare",
+    github: "",
   },
   {
     title: "Weather Forecast Application",
@@ -29,6 +32,7 @@ const projects = [
     technologies: ["Python", "API Integration", "Tkinter"],
     icon: Cloud,
     category: "API",
+    github: "",
   },
   {
     title: "File Sharing Application",
@@ -36,6 +40,7 @@ const projects = [
     technologies: ["Python", "Socket Programming", "Networking"],
     icon: Share2,
     category: "Networking",
+    github: "",
   },
   {
     title: "Power BI Dashboards",
@@ -43,6 +48,7 @@ const projects = [
     technologies: ["Power BI", "DAX", "Data Modeling"],
     icon: PieChart,
     category: "Visualization",
+    github: "https://github.com/SionRani/Task-Dashboard-Design",
   },
 ];
 
@@ -91,9 +97,22 @@ export const ProjectsSection = () => {
                 ))}
               </div>
 
-              <Button variant="ghost" size="sm" className="mt-4 w-full group-hover:bg-primary/10">
-                View Project <ExternalLink size={16} className="ml-2" />
-              </Button>
+              {project.github ? (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="mt-4 w-full group-hover:bg-primary/10"
+                  asChild
+                >
+                  <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    <Github size={16} className="mr-2" /> View on GitHub
+                  </a>
+                </Button>
+              ) : (
+                <Button variant="ghost" size="sm" className="mt-4 w-full group-hover:bg-primary/10" disabled>
+                  Coming Soon
+                </Button>
+              )}
             </div>
           ))}
         </div>
