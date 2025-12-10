@@ -11,27 +11,27 @@ import { Button } from "@/components/ui/button";
 const services = [
   {
     title: "Data Analysis & Insights",
-    description: "Transform raw data into actionable insights through comprehensive analysis and reporting.",
+    description: "Transform raw data into actionable insights through comprehensive statistical analysis, trend identification, and data storytelling. Deliver detailed reports that drive informed business strategies.",
     icon: TrendingUp,
   },
   {
-    title: "Machine Learning Development",
-    description: "Build and deploy predictive models for classification, regression, and forecasting tasks.",
+    title: "Machine Learning Solutions",
+    description: "Design, train, and deploy predictive models using advanced algorithms for classification, regression, clustering, and forecasting. Build intelligent systems that learn from data and improve over time.",
     icon: Cpu,
   },
   {
-    title: "Dashboard Creation",
-    description: "Design interactive Power BI dashboards for real-time data visualization and monitoring.",
+    title: "Interactive Dashboard Creation",
+    description: "Develop visually compelling Power BI and Tableau dashboards with real-time data integration, KPI tracking, and drill-down capabilities for comprehensive business monitoring.",
     icon: BarChart3,
   },
   {
-    title: "Exploratory Data Analysis",
-    description: "Discover patterns, anomalies, and relationships in your data through systematic exploration.",
+    title: "Exploratory Data Analysis (EDA)",
+    description: "Conduct systematic data exploration to uncover hidden patterns, detect anomalies, test hypotheses, and identify relationships. Provide deep data understanding before model development.",
     icon: Search,
   },
   {
-    title: "Data-Driven Decision Support",
-    description: "Provide strategic recommendations backed by statistical analysis and data modeling.",
+    title: "Strategic Data Consulting",
+    description: "Offer expert guidance on data strategy, infrastructure optimization, and analytics implementation. Help organizations build data-driven cultures with measurable business outcomes.",
     icon: Lightbulb,
   },
 ];

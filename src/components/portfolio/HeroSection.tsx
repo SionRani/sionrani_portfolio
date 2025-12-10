@@ -26,8 +26,8 @@ export const HeroSection = () => {
             </p>
           </div>
 
-          <p className="text-lg text-muted-foreground max-w-md mx-auto animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            Transforming data into insights and intelligent solutions. Passionate about machine learning, analytics, and data-driven decision-making.
+          <p className="text-lg text-muted-foreground max-w-lg mx-auto animate-fade-up" style={{ animationDelay: "0.3s" }}>
+            Leveraging statistical analysis, machine learning algorithms, and visualization tools to uncover patterns, predict outcomes, and drive strategic business decisions. Committed to turning complex datasets into clear, actionable intelligence.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.4s" }}>
