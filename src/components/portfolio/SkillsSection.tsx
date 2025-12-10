@@ -27,9 +27,9 @@ const skillCategories = [
     title: "Technical Skills",
     icon: FileCode,
     skills: [
-      { name: "API Integration", icon: Code2 },
       { name: "Power BI", icon: BarChart3 },
-      { name: "Socket Programming", icon: Cpu },
+      { name: "Tableau", icon: LineChart },
+      { name: "Excel", icon: BarChart3 },
       { name: "Git & GitHub", icon: GitBranch },
     ],
   },
@@ -39,6 +39,7 @@ const skillCategories = [
     skills: [
       { name: "Content Writing", icon: PenTool },
       { name: "Visual Presentation", icon: Presentation },
+      { name: "Creative Arts", icon: PenTool },
     ],
   },
 ];

@@ -10,8 +10,8 @@ const education = [
   {
     degree: "B.Tech – Civil Engineering",
     institution: "JNTUK",
-    period: "Discontinued",
-    details: "Career pivot to Data Science",
+    period: "2023 – 2027",
+    details: "Pursuing alongside Data Science",
   },
 ];
 
