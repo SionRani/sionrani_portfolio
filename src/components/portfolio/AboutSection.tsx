@@ -5,7 +5,7 @@ const education = [
     degree: "BCA – Data Science",
     institution: "SRMIST",
     period: "2023 – 2026",
-    details: "CGPA: 9.45, 9.59, 9.52",
+    details: "SGPA: 9.455, 9.591, 10, 9.600 | CGPA: 9.65",
   },
   {
     degree: "B.Tech – Civil Engineering",
@@ -49,8 +49,8 @@ export const AboutSection = () => {
                 <p className="text-sm text-muted-foreground mt-1">Projects</p>
               </div>
               <div className="p-4 bg-card rounded-xl shadow-card text-center">
-                <p className="text-3xl font-bold text-gradient font-display">9.5</p>
-                <p className="text-sm text-muted-foreground mt-1">Avg CGPA</p>
+                <p className="text-3xl font-bold text-gradient font-display">9.65</p>
+                <p className="text-sm text-muted-foreground mt-1">CGPA</p>
               </div>
             </div>
           </div>
