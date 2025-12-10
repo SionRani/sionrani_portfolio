@@ -1,4 +1,4 @@
-import { Github, BarChart, Brain, Heart, Cloud, Share2, PieChart, Users } from "lucide-react";
+import { Github, BarChart, Brain, Heart, Cloud, PieChart, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -32,14 +32,6 @@ const projects = [
     technologies: ["Python", "API Integration", "Tkinter"],
     icon: Cloud,
     category: "API",
-    github: "",
-  },
-  {
-    title: "File Sharing Application",
-    description: "Real-time file sharing system using Python socket programming for peer-to-peer transfers.",
-    technologies: ["Python", "Socket Programming", "Networking"],
-    icon: Share2,
-    category: "Networking",
     github: "",
   },
   {
