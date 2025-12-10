@@ -5,22 +5,22 @@ const experiences = [
     title: "Content Writer Intern",
     company: "InAmigos Foundation (IAF)",
     period: "Jun – Jul 2025",
-    description: "Creative writing and content development for various campaigns and initiatives.",
-    skills: ["Content Writing", "Creative Development", "Communication"],
+    description: "Crafted compelling content for social media campaigns, blogs, and organizational initiatives. Developed creative narratives that enhanced audience engagement and effectively communicated the foundation's mission and values.",
+    skills: ["Content Writing", "Creative Development", "Social Media", "Communication"],
   },
   {
     title: "Data Analyst Intern",
     company: "Elevate Labs",
     period: "Jun – Jul 2025",
-    description: "Data visualization, analytics, and insights reporting for business intelligence.",
-    skills: ["Data Visualization", "Analytics", "Power BI", "Reporting"],
+    description: "Analyzed large datasets to extract meaningful business insights and created interactive Power BI dashboards for real-time monitoring. Delivered comprehensive reports that supported data-driven decision-making for stakeholders.",
+    skills: ["Data Visualization", "Analytics", "Power BI", "Excel", "Reporting"],
   },
   {
     title: "Data Scientist Intern",
     company: "Pinnacle",
     period: "Aug – Sep 2024",
-    description: "Machine learning model development, predictive modeling, and statistical analysis.",
-    skills: ["Machine Learning", "Python", "Statistical Analysis", "Predictive Modeling"],
+    description: "Developed and deployed machine learning models for predictive analytics, performed statistical analysis on complex datasets, and built end-to-end data pipelines. Applied algorithms for classification, regression, and clustering to solve real-world business problems.",
+    skills: ["Machine Learning", "Python", "Statistical Analysis", "Predictive Modeling", "SQL"],
   },
 ];
 

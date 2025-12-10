@@ -32,10 +32,13 @@ export const AboutSection = () => {
             <div className="p-6 bg-card rounded-2xl shadow-card">
               <h3 className="text-xl font-semibold mb-4 font-display">Who I Am</h3>
               <p className="text-muted-foreground leading-relaxed">
-                I am a <span className="text-foreground font-medium">Data Science student at SRMIST</span> with strong skills in analytics, machine learning, and real-time projects. Passionate about data-driven decision-making and solving real-world problems.
+                I am a <span className="text-foreground font-medium">Data Science student at SRMIST</span> with expertise in statistical analysis, machine learning, and data visualization. I specialize in extracting meaningful patterns from complex datasets and building predictive models that drive business value.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                I combine technical skills with creativity and continuous self-improvement. My goal is to leverage data science to create meaningful impact and help organizations make smarter decisions.
+                With a strong foundation in Python, SQL, and visualization tools like Power BI and Tableau, I transform raw data into compelling stories and actionable recommendations. I thrive on solving challenging problems and continuously expanding my knowledge in emerging data science methodologies.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                My unique combination of analytical rigor, creative thinking, and strong communication skills enables me to bridge the gap between technical insights and business strategy, helping organizations make smarter, data-driven decisions.
               </p>
             </div>
 
@@ -45,7 +48,7 @@ export const AboutSection = () => {
                 <p className="text-sm text-muted-foreground mt-1">Internships</p>
               </div>
               <div className="p-4 bg-card rounded-xl shadow-card text-center">
-                <p className="text-3xl font-bold text-gradient font-display">6+</p>
+                <p className="text-3xl font-bold text-gradient font-display">9+</p>
                 <p className="text-sm text-muted-foreground mt-1">Projects</p>
               </div>
               <div className="p-4 bg-card rounded-xl shadow-card text-center">
