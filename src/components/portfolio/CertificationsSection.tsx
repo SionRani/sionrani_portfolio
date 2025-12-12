@@ -84,11 +84,11 @@ const certifications = [
     image: "/certificates/indian_art_fest.png",
   },
   {
-    title: "ArtSmart Online Art Contest",
+    title: "ArtSmart Art Contest - Bronze Medal",
     issuer: "ArtSmart",
-    date: "June-July 2025",
-    icon: PenTool,
-    category: "Creative Arts",
+    date: "2025",
+    icon: Trophy,
+    category: "Achievement",
     image: "/certificates/artsmart.jpg",
   },
   {
