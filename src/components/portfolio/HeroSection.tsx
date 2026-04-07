@@ -1,4 +1,4 @@
-import { ArrowRight, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Download, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
@@ -39,6 +39,11 @@ export const HeroSection = () => {
             <Button variant="heroOutline" size="lg" asChild>
               <a href="#projects">
                 View Projects
+              </a>
+            </Button>
+            <Button variant="heroOutline" size="lg" asChild>
+              <a href="/Sion_Rani_Resume.pdf" download>
+                <Download className="mr-2" size={18} /> Download CV
               </a>
             </Button>
           </div>
