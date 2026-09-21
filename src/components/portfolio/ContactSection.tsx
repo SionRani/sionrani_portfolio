@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Linkedin, Send, MapPin, Phone } from "lucide-react";
+import { Mail, Linkedin, Send, MapPin, Phone, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -88,9 +88,52 @@ export const ContactSection = () => {
                   <p className="text-sm text-muted-foreground">LinkedIn</p>
                   <p className="font-medium">linkedin.com/in/sionrani</p>
                 </div>
+            </a>
+
+              <a
+                href="https://github.com/SionRani"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 bg-card rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 group"
+              >
+                <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                  <Github size={20} />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">GitHub</p>
+                  <p className="font-medium">github.com/SionRani</p>
+                </div>
               </a>
-            </div>
+
+              <a
+                href="tel:+919000770510"
+                className="flex items-center gap-4 p-4 bg-card rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 group"
+              >
+                <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                  <Phone size={20} />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Phone</p>
+                  <p className="font-medium">+91 90007 70510</p>
+                </div>
+              </a>
+
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Kakinada%2C%20Andhra%20Pradesh%2C%20India"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 bg-card rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 group"
+              >
+                <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                  <MapPin size={20} />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Location</p>
+                  <p className="font-medium">Kakinada, Andhra Pradesh, India</p>
+                </div>
+              </a>
           </div>
+        </div>
 
           {/* Contact Form */}
           <div className="p-8 bg-card rounded-2xl shadow-card">

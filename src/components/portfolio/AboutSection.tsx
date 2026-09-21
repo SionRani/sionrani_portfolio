@@ -32,7 +32,7 @@ export const AboutSection = () => {
             <div className="p-6 bg-card rounded-2xl shadow-card">
               <h3 className="text-xl font-semibold mb-4 font-display">Who I Am</h3>
               <p className="text-muted-foreground leading-relaxed">
-                I am a <span className="text-foreground font-medium">Data Science student at SRMIST</span> and <span className="text-foreground font-medium">Civil Engineering student at JNTUK</span>, with expertise in statistical analysis, machine learning, and data visualization. I specialize in extracting meaningful patterns from complex datasets and building predictive models that drive business value.
+                I am a <span className="text-foreground font-medium">Data Science student at SRMIST</span> with expertise in statistical analysis, machine learning, and data visualization. I specialize in extracting meaningful patterns from complex datasets and building predictive models that drive business value.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
                 With a strong foundation in Python, SQL, and visualization tools like Power BI and Tableau, I transform raw data into compelling stories and actionable recommendations. I thrive on solving challenging problems and continuously expanding my knowledge in emerging data science methodologies.

@@ -1,4 +1,4 @@
-import { ArrowRight, Download, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Linkedin, Mail, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
@@ -41,11 +41,6 @@ export const HeroSection = () => {
                 View Projects
               </a>
             </Button>
-            <Button variant="heroOutline" size="lg" asChild>
-              <a href="/Sion_Rani_Resume.pdf" download>
-                <Download className="mr-2" size={18} /> Download CV
-              </a>
-            </Button>
           </div>
 
           <div className="flex items-center gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
@@ -62,6 +57,14 @@ export const HeroSection = () => {
               className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
             >
               <Mail size={20} className="group-hover:scale-110 transition-transform" />
+            </a>
+            <a
+              href="https://github.com/SionRani"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
+            >
+              <Github size={20} className="group-hover:scale-110 transition-transform" />
             </a>
           </div>
         </div>

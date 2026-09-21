@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Heart } from "lucide-react";
+import { Linkedin, Mail, Heart, Github } from "lucide-react";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -30,6 +30,14 @@ export const Footer = () => {
               className="p-2 rounded-full bg-background/10 hover:bg-primary hover:text-primary-foreground transition-colors"
             >
               <Mail size={18} />
+            </a>
+            <a
+              href="https://github.com/SionRani"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full bg-background/10 hover:bg-primary hover:text-primary-foreground transition-colors"
+            >
+              <Github size={18} />
             </a>
           </div>
         </div>
