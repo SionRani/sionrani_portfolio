@@ -1,4 +1,4 @@
-import { ArrowRight, Linkedin, Mail, Github } from "lucide-react";
+import { ArrowRight, Linkedin, Mail, Github, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
@@ -16,19 +16,59 @@ export const HeroSection = () => {
       <div className="section-container">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <div className="space-y-4">
-            <p className="text-primary font-medium animate-fade-up">Hello, I'm</p>
+            <p className="text-primary font-medium animate-fade-up">Hi, I'm</p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display leading-tight animate-fade-up" style={{ animationDelay: "0.1s" }}>
               Kondepudi<br />
               <span className="text-gradient">Sion Rani</span>
             </h1>
             <p className="text-xl sm:text-2xl text-muted-foreground animate-fade-up" style={{ animationDelay: "0.2s" }}>
-              Data Scientist & Data Analyst
+              Civil Engineering Student & Data Analyst
             </p>
           </div>
 
-          <p className="text-lg text-muted-foreground max-w-lg mx-auto animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            Leveraging statistical analysis, machine learning algorithms, and visualization tools to uncover patterns, predict outcomes, and drive strategic business decisions. Committed to turning complex datasets into clear, actionable intelligence.
+          <p className="text-lg text-muted-foreground max-w-xl mx-auto animate-fade-up" style={{ animationDelay: "0.3s" }}>
+            Civil Engineering student with hands-on construction experience and a Data Science background — skilled in planning, quality, execution, EHS and analytics.
           </p>
+
+          {/* Quick contact chips */}
+          <div className="flex flex-wrap gap-3 justify-center animate-fade-up" style={{ animationDelay: "0.35s" }}>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Kakinada%2C%20Andhra%20Pradesh%2C%20India"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card shadow-card text-sm font-medium text-primary hover:shadow-card-hover transition-all"
+            >
+              <MapPin size={16} /> Kakinada, AP — India
+            </a>
+            <a
+              href="tel:+919000770510"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card shadow-card text-sm font-medium text-primary hover:shadow-card-hover transition-all"
+            >
+              <Phone size={16} /> +91 90007 70510
+            </a>
+            <a
+              href="mailto:kondepudisionrani@gmail.com"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card shadow-card text-sm font-medium text-primary hover:shadow-card-hover transition-all"
+            >
+              <Mail size={16} /> kondepudisionrani@gmail.com
+            </a>
+            <a
+              href="https://github.com/SionRani"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card shadow-card text-sm font-medium text-primary hover:shadow-card-hover transition-all"
+            >
+              <Github size={16} /> GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sionrani"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card shadow-card text-sm font-medium text-primary hover:shadow-card-hover transition-all"
+            >
+              <Linkedin size={16} /> LinkedIn
+            </a>
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <Button variant="hero" size="lg" asChild>
@@ -41,31 +81,6 @@ export const HeroSection = () => {
                 View Projects
               </a>
             </Button>
-          </div>
-
-          <div className="flex items-center gap-4 justify-center animate-fade-up" style={{ animationDelay: "0.5s" }}>
-            <a
-              href="https://www.linkedin.com/in/sionrani"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
-            >
-              <Linkedin size={20} className="group-hover:scale-110 transition-transform" />
-            </a>
-            <a
-              href="mailto:kondepudisionrani@gmail.com"
-              className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
-            >
-              <Mail size={20} className="group-hover:scale-110 transition-transform" />
-            </a>
-            <a
-              href="https://github.com/SionRani"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
-            >
-              <Github size={20} className="group-hover:scale-110 transition-transform" />
-            </a>
           </div>
         </div>
       </div>

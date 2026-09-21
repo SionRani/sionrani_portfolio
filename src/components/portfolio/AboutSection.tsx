@@ -2,16 +2,16 @@ import { GraduationCap, Calendar, Award } from "lucide-react";
 
 const education = [
   {
-    degree: "BCA – Data Science",
-    institution: "SRMIST",
-    period: "2023 – 2026",
-    details: "SGPA: 9.455, 9.591, 10, 9.600 | CGPA: 9.65",
+    degree: "B.Tech — Civil Engineering",
+    institution: "Pragati Engineering College (Autonomous), JNTUK",
+    period: "2023 – 2027",
+    details: "CGPA: 7.95/10 (Expected May 2027)",
   },
   {
-    degree: "B.Tech – Civil Engineering",
-    institution: "JNTUK",
-    period: "2023 – 2027",
-    details: "Pursuing alongside Data Science",
+    degree: "BCA — Data Science",
+    institution: "SRM Institute of Science and Technology — Directorate of Online Education",
+    period: "2023 – 2026",
+    details: "Completed 2026",
   },
 ];
 
@@ -21,9 +21,7 @@ export const AboutSection = () => {
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="section-title">About Me</h2>
-          <p className="section-subtitle mx-auto">
-            Passionate about transforming raw data into meaningful insights
-          </p>
+          <p className="section-subtitle mx-auto">Get to know me better</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
@@ -32,28 +30,28 @@ export const AboutSection = () => {
             <div className="p-6 bg-card rounded-2xl shadow-card">
               <h3 className="text-xl font-semibold mb-4 font-display">Who I Am</h3>
               <p className="text-muted-foreground leading-relaxed">
-                I am a <span className="text-foreground font-medium">Data Science student at SRMIST</span> with expertise in statistical analysis, machine learning, and data visualization. I specialize in extracting meaningful patterns from complex datasets and building predictive models that drive business value.
+                I'm a <span className="text-foreground font-medium">Civil Engineering student</span> with hands-on construction experience through an L&amp;T Construction internship at TIMS Super Speciality Hospital, LB Nagar, with practical exposure to planning, quality, execution, finishing, EHS and MEP coordination.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                With a strong foundation in Python, SQL, and visualization tools like Power BI and Tableau, I transform raw data into compelling stories and actionable recommendations. I thrive on solving challenging problems and continuously expanding my knowledge in emerging data science methodologies.
+                I also hold a <span className="text-foreground font-medium">BCA in Data Science</span>, giving me strong analytical skills in Python, SQL, Power BI and Tableau — which I apply to construction quality tracking, progress monitoring and reporting.
               </p>
               <p className="text-muted-foreground leading-relaxed mt-4">
-                My unique combination of analytical rigor, creative thinking, and strong communication skills enables me to bridge the gap between technical insights and business strategy, helping organizations make smarter, data-driven decisions.
+                With this dual Civil + Data background, I'm looking for a good opportunity where I can contribute my skills in construction planning, quality and data analytics, keep learning, and grow with a strong team.
               </p>
             </div>
 
             <div className="grid grid-cols-3 gap-4">
               <div className="p-4 bg-card rounded-xl shadow-card text-center">
-                <p className="text-3xl font-bold text-gradient font-display">3+</p>
-                <p className="text-sm text-muted-foreground mt-1">Internships</p>
+                <p className="text-3xl font-bold text-gradient font-display">L&amp;T</p>
+                <p className="text-sm text-muted-foreground mt-1">Internship</p>
               </div>
               <div className="p-4 bg-card rounded-xl shadow-card text-center">
-                <p className="text-3xl font-bold text-gradient font-display">9+</p>
+                <p className="text-3xl font-bold text-gradient font-display">11+</p>
                 <p className="text-sm text-muted-foreground mt-1">Projects</p>
               </div>
               <div className="p-4 bg-card rounded-xl shadow-card text-center">
-                <p className="text-3xl font-bold text-gradient font-display">9.65</p>
-                <p className="text-sm text-muted-foreground mt-1">CGPA</p>
+                <p className="text-3xl font-bold text-gradient font-display">2</p>
+                <p className="text-sm text-muted-foreground mt-1">Degrees</p>
               </div>
             </div>
           </div>
