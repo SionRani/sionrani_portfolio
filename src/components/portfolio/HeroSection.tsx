@@ -1,4 +1,4 @@
-import { ArrowRight, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Linkedin, Mail, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
@@ -57,6 +57,14 @@ export const HeroSection = () => {
               className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
             >
               <Mail size={20} className="group-hover:scale-110 transition-transform" />
+            </a>
+            <a
+              href="https://github.com/SionRani"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300 group"
+            >
+              <Github size={20} className="group-hover:scale-110 transition-transform" />
             </a>
           </div>
         </div>
